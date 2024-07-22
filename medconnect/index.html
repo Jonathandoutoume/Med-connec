@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/Accueil.css" />
+  </head>
+  <body>  
+    <main>
+      <template>
+        <nav>
+          <router-link to="/">Accueil</router-link>
+          <router-link to="/bienvenu">bienvenu</router-link>
+        </nav>
+        <div>
+        <router-view />
+      </div>
+      </template>
+      <div class="main_text">
+      <h1>MEDCONNECT</h1>
+      <p>Planifier des rendez-vous et accéder aux services médicaux</p>
+    </div>
+      <div>
+        <button type="button">EXPLORER</button>
+      </div>
+    </main>
+    <a class="link" href="./pages/rendez-vous.html">prendre rendez-vous</a><br>
+    <a class="link" href="./pages/bienvenu.html">Bienvenu</a>
+    <footer>
+      <p class="footer_p">MadConnect © 2021</p>
+      <a href="#">Mentions légales</a>
+      <a href="#">Conditions d'utilisation</a>
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">Aide</a >
+        <div>
+       <a href="https://www.facebook.com"> <img src="./public/facebook-circle-fill.svg" alt="facebook" /></a>
+       <a href="https://www.instagram.com"><img src="./public/instagram-fill - Copie.svg" alt="instagram" /></a> 
+       <a href="https://www.twitter.com"><img src="./public/twitter-x-fill - Copie.svg" alt="twitter" /> </a> 
+       <a href="https://www.linkedin.com"><img src="./public/linkedin-box-fill (1) - Copie.svg" alt="linkedin" /> </a> 
+        </div>
+    </div>
+    </footer>
+  </body>
+</html>

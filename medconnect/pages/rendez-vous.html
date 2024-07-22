@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rendez-vous</title>
+    <link rel="stylesheet" href="../style/rendez-vous.css" />
+
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Accueil</a><br>
+      <a href="../pages/bienvenu.html">Bienvenu</a>
+      <h1>Prendre rendez-vous</h1>
+      <p>Trouver l'horaire des hôpitaux à proximité</p>
+    </header>
+    <main>
+      <div class="main_text">
+        <h2>Créer un compte</h2>
+        <button><img src="../public/user-add-line - Copie.svg" alt="icon" /></button>
+      </div>
+
+      <div class="form_container">
+        <form action="/submit_rendezvous.php" method="post" class="ftp">
+          <label for="nom"></label>
+          <input class="main_input"
+            type="email"
+            id="E-mail"
+            name="E-mail"
+            required
+            placeholder="E-mail"
+          /> <br>
+
+          <label for="nom"></label>
+          <input
+            class="main_input"
+            type="mot de passe"
+            id="mot de pass"
+            name="mot de passe"
+            required
+            placeholder="mot de passe"
+          /> <br>
+
+          <label for="nom"></label>
+          <input
+            class="main_input"
+            type="nom"
+            id="nom"
+            name="nom"
+            required
+            placeholder="Nom"
+          /> <br>
+
+          <label for="nom"></label>
+          <input
+            class="main_input"
+            type="prenom"
+            id="prenom"
+            name="prenom"
+            required
+            placeholder="Prenom"
+          /> <br>
+
+          <label for="nom"></label>
+          <input
+            class="main_input"
+            type="Adress"
+            id="Adress"
+            name="Adress"
+            required
+            placeholder="Adress"
+          />
+          <input class="input"  type="submit" name="Submit">
+        </form>
+      </div>
+    </main><br>
+    <footer>
+      <p class="footer_p">MadConnect © 2021</p>
+      <a href="#">Mentions légales</a>
+      <a href="#">Conditions d'utilisation</a>
+      <a href="#">Politique de confidentialité</a>
+      <a href="#">Aide</a >
+        <div>
+        <img src="../public/facebook-circle-fill.svg" alt="facebook" />
+        <img src="../public/instagram-fill - Copie.svg" alt="instagram" />
+        <img src="../public/twitter-x-fill - Copie.svg" alt="twitter" />
+        <img src="../public/linkedin-box-fill (1) - Copie.svg" alt="linkedin" />
+        </div>
+    </div>
+    </footer>
+  </body>
+</html>
